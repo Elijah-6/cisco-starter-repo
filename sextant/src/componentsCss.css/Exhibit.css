@@ -1,6 +1,6 @@
 .exhibit {
     margin: 10px;
-    background-color: beige;
+    background-color: var(--baby-powder);
     text-align: center;
     border-radius: 20px 10px 5px 20px;
     box-shadow: 100px;

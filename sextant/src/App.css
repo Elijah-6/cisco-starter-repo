@@ -1,7 +1,18 @@
+
+/* CSS HEX */
+:root {
+  --smoky-black: "#141204ff";
+    --drab-dark-brown: #262a10ff;
+    --drab-dark-brown-2: "#54442bff";
+    --zomp: #61988eff;
+    --baby-powder: #fbfef9ff;
+}
+
 * {
   margin: 0px;
   box-sizing: border-box;
 }
+
 
 
 .App {
@@ -56,4 +67,5 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: var(--baby-powder);
   }
