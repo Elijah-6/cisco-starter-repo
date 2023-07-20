@@ -12,7 +12,8 @@
 }
 
 .exhibit:hover {
-    box-shadow: 10px 10px 8px #888888;    transform:scale(98%);
+    box-shadow: 10px 10px 8px #888888;    
+    transform:scale(98%);
     transition:ease-in-out 0.3s
 }
 
@@ -23,10 +24,12 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 14px;
     max-lines: 10;
+    overflow: hidden;
+    color: var(--drab-dark-brown-2);
 }
 
 h2 {
-    color :teal;
+    color :var(--drab-dark-brown-2);
     font-family: Arial, Helvetica, sans-serif;
 
 }

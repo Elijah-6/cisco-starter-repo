@@ -1,9 +1,9 @@
 
 /* CSS HEX */
 :root {
-  --smoky-black: "#141204ff";
+  --smoky-black: #141204ff;
     --drab-dark-brown: #262a10ff;
-    --drab-dark-brown-2: "#54442bff";
+    --drab-dark-brown-2: #54442bff;
     --zomp: #61988eff;
     --baby-powder: #fbfef9ff;
 }
@@ -17,6 +17,8 @@
 
 .App {
   text-align: center;
+  background-color: var(--baby-powder);
+  background-attachment: fixed;
   /* justify-content: space-between; */
 }
 

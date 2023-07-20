@@ -11,8 +11,10 @@ function App() {
       </div>
         
       <div className = "exhibits">
-      <Exhibit name ="I am an Exhibit">Hello</Exhibit>
-      <Exhibit name ="I am an Exhibit">Hello</Exhibit>
+      <Exhibit name ="I am an Exhibit" >Hello</Exhibit>
+      <Exhibit name ="I am an Exhibit">I am an Exhibit</Exhibit>
+      <Exhibit name ="I am an Exhibit">I am an Exhibit yes</Exhibit>
+      <Exhibit name ="I am an Exhibit">I am an Exhibit too</Exhibit>
       <Exhibit name ="I am an Exhibit">Hello</Exhibit>
       </div>
     

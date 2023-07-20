@@ -1,10 +1,15 @@
+
 h1 {
-    color: grey;
+    color:var(--baby-powder);
 }
 
 .banner {
-    background-color: darkolivegreen;
+    display: flex;
+    background-color: var(--drab-dark-brown-2);
     margin-top : 0px;
     height: 100px;
     width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 50px 50px;
 }
