@@ -1,18 +1,20 @@
 import '../componentsCss.css/Exhibit.css';
 
-const Exhibit = ({...items}) => {
+const Exhibit = ({name, children}) => {
   return (
     <div className ="exhibit">
-        <h3>Exhibit</h3>
+        <h2>{name}</h2>
         {/* <ul>
             <li>Watch</li>
             <li>Touch</li>
             <li>Feel</li>
         </ul> */}
         <div className = "exhibit__items">
+            {/* <p>Hello</p>
             <p>Hello</p>
-            <p>Hello</p>
-            <p>Hello</p>
+            <p>Hello</p> */}
+            {/* {this.children} */}
+            {children}
         </div>
         
     </div>

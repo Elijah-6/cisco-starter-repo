@@ -9,8 +9,12 @@ function App() {
       <div>
        <Banner title= "Sextant"/>
       </div>
-
-      <Exhibit/>
+        
+      <div className = "exhibits">
+      <Exhibit name ="I am an Exhibit">Hello</Exhibit>
+      <Exhibit name ="I am an Exhibit">Hello</Exhibit>
+      <Exhibit name ="I am an Exhibit">Hello</Exhibit>
+      </div>
     
     </div>
   );
