@@ -1,8 +1,13 @@
+import '../componentsCss.css/banner.css'
+
 function Banner({title}) {
   return (
-    <h2>
+    <div className ='banner'>
+      
+    <h1>
       {title}
-      </h2>
+      </h1>
+    </div>
   )
 }
 

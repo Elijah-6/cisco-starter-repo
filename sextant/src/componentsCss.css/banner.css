@@ -1,0 +1,10 @@
+h1 {
+    color: grey;
+}
+
+.banner {
+    background-color: darkolivegreen;
+    margin-top : 0px;
+    height: 100px;
+    width: 100%;
+}
