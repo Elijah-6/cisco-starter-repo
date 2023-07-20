@@ -1,5 +1,5 @@
 .exhibit {
-    margin :10px;
+    margin: 10px;
     background-color: beige;
     text-align: center;
     border-radius: 20px 10px 5px 20px;
@@ -14,8 +14,8 @@
 .exhibit:hover {
     box-shadow: 10px 10px 8px #888888;    transform:scale(98%);
     transition:ease-in-out 0.3s
-
 }
+
 
 /* Exhibit items */
 .exhibit__items {
