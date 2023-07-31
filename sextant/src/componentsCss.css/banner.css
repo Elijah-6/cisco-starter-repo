@@ -5,7 +5,7 @@ h1 {
 
 .banner {
     display: flex;
-    background-color: var(--drab-dark-brown-2);
+    background-color: #00b8e6;
     margin-top : 0px;
     height: 100px;
     width: 100%;
